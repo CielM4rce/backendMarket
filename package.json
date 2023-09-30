@@ -11,5 +11,16 @@
     "@babel/preset-env": "^7.22.20",
     "morgan": "^1.10.0",
     "nodemon": "^3.0.1"
-  }
+  },
+  "name": "my-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=@babel/preset-env",
+    "dev": "nodemon --exec npm run babel-node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
